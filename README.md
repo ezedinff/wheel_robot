@@ -12,6 +12,8 @@ then clone the plugin we made to drive the robot around using keyboard.
 
 * inside catkin_ws/:
 ```sh
+$ chmod u+x src/teleop_twist_keyboard/teleop_twist_keyboard
+
 $ catkin_make
 
 $ source devel/setup.bash
